@@ -30,7 +30,7 @@
 
 .actions {
   position: absolute;
-  top: 80%;
+  top: 74%;
   left: 50%;
   transform: translateX(-50%);
   width: 58%;
@@ -160,7 +160,12 @@
     box-shadow: none;
   }
 
+  .banner {
+    object-fit: fill;
+  }
+
   .actions {
+    top: 80%;
     width: 78%;
   }
 }
